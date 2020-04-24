@@ -1,0 +1,26 @@
+{
+  "name": "payrox-cal",
+  "version": "1.0.0",
+  "description": "Payroll calculation for Japanese. Current version is based on Labor Standards Act in 2020,",
+  "main": "index.js",
+  "repository": "https://github.com/kota-yata/Payrox-calc",
+  "keywords": [
+    "npm",
+    "給与計算",
+    "バイト　給料計算",
+    "給料計算ライブラリ",
+    "計算パッケージ",
+    "payrox",
+    "payrox-calc"
+  ],
+  "author": "Kota Yatagai(https://twitter.com/AlGoRiT94422608)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kota-yata/Payrox-calc/issues"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "mocha-sinon": "^2.1.2"
+  }
+}
