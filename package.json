@@ -22,5 +22,6 @@
     "chai": "^4.2.0",
     "mocha": "^7.1.1",
     "mocha-sinon": "^2.1.2"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
