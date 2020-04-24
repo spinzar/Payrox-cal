@@ -1,5 +1,9 @@
 # **Payrox-calc** #
 
+[![Build Status](https://travis-ci.org/kota-yata/Payrox-cal.svg?branch=master)](https://travis-ci.org/kota-yata/Payrox-cal)
+
+![image](https://user-images.githubusercontent.com/51294895/80219704-d1603a80-867d-11ea-8f6f-0dae0c1f5880.png)
+
 Payroll calculation package for Japanese, based on [Labor Standards Act](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=322AC0000000049) in 2020.
 
 日本のアルバイト、パートタイム従業員の給料計算npmパッケージ。2020年現在の[労働基準法](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=322AC0000000049)に基づいています。
@@ -18,13 +22,26 @@ Payroll calculation package for Japanese, based on [Labor Standards Act](https:/
 詳しくは[労働基準法](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=322AC0000000049)をご確認ください。
 
 # **Usage** #
+ローカルにインストール
 
-作成中
+```
+$ npm install payrox-cal
+```
 
-# **Example** #
+```node.js
+const payrox=require("payrox-cal");//payrox-calをインポート
+payrox.add(1000,9,1,4,false,0);//payrox.add(時給(int),実働時間(int),時間外労働(int),時間外労働の時間(int),法定休日出勤(bool),深夜勤務時間(int))
+```
 
-このパッケージを使用したアプリケーションの例=>(https://payrox.cf)
+- 第一引数<時給>...第一引数には時給を整数で入力します
+- 第二引数<実働時間>...第二引数には実働時間、つまりシフトの時間から休憩時間を引いた時間を入力します。小数点第1位で四捨五入
 
+ex.)6時間40分=>6.7時間
+
+- 第三引数<時間外労働の種類>...第三引数には時間外労働の種類を0~2の数値で入力します。
+  - 0...時間外労働なし
+  - 1...このシフトだけで8時間を
+  
 # **LICENSE** #
 
 Payrox-calc is under [MIT license](https://opensource.org/licenses/mit-license.php)
