@@ -1,6 +1,6 @@
 {
   "name": "payrox-cal",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Payroll calculation for Japanese. Current version is based on Labor Standards Act in 2020,",
   "main": "index.js",
   "repository": "https://github.com/kota-yata/Payrox-calc",
