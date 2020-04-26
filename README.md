@@ -24,7 +24,7 @@ Payroll calculation package for Japanese, based on [Labor Standards Act](https:/
 # **Usage** #
 
 **このパッケージは引数の入力が複雑です。質問等はいつでも[twitter](https://twitter.com/AlGoRiT94422608)のDMでお受けしています。**
-**こんな場合はどう入力すれば良いの？**
+**「こんな場合はどう入力すれば良いの？」といった質問もOKです！**
 
 ローカルにインストール
 
