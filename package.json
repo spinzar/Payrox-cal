@@ -18,10 +18,12 @@
   "bugs": {
     "url": "https://github.com/kota-yata/Payrox-calc/issues"
   },
+  "scripts": {
+    "test": "mocha"
+  },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^7.1.1",
-    "mocha-sinon": "^2.1.2"
+    "mocha": "^7.1.1"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
