@@ -1,4 +1,12 @@
 "use strict";
+/**
+ * @param {number} wage - 時給を入力
+ * @param {number} workinghours - 実働時間を入力(実働時間は除く)
+ * @param {number} overwork - 時間外労働の種類を入力(時間外労働が月60hを超える場合は2,その他は1,時間外労働でない場合は0)
+ * @param {number} overworktime - overworkで0以外を選択した場合はその時間数を入力
+ * @param {boolean} holiday - 休日出勤の場合はtrue,そうでない場合はfalse
+ * @param {number} midnight - 深夜勤務時間を入力(22:00~05:00)
+ */
 function payrox(wage,workinghours,overwork,overworktime,holiday,midnight){
     let result=0;
     let obj={
