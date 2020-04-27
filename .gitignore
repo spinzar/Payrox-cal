@@ -108,6 +108,7 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+.VS_Store
 
 # yarn v2
 
@@ -116,4 +117,5 @@ dist
 .yarn/build-state.yml
 .pnp.*
 
-
+# eslint
+.eslintrc

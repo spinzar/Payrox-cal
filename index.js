@@ -9,12 +9,12 @@
  */
 function payrox(wage,workinghours,overwork,overworktime,holiday,midnight){
     let result=0;
-    let obj={
+    const obj={
         "overworkextra1":0.25,
         "overworkextra2":0.5,
         "nightextra":0.25,
         "holidayextra":0.35
-    }
+    };
     //深夜勤務している上に休日出勤の場合
     if(midnight!==0&&holiday==true){
         result+=(workinghours-midnight)*wage*(1+obj["holidayextra"]);
@@ -48,4 +48,4 @@ function payrox(wage,workinghours,overwork,overworktime,holiday,midnight){
 }
 module.exports={
     add:payrox
-}
+};
