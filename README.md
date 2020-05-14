@@ -2,8 +2,6 @@
 
 [![Build Status](https://travis-ci.org/kota-yata/Payrox-cal.svg?branch=master)](https://travis-ci.org/kota-yata/Payrox-cal)
 
-![image](https://user-images.githubusercontent.com/51294895/80219704-d1603a80-867d-11ea-8f6f-0dae0c1f5880.png)
-
 Payroll calculation package for Japanese, based on [Labor Standards Act](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=322AC0000000049) in 2020.
 
 日本のアルバイト、パートタイム従業員の給料計算npmパッケージ。2020年現在の[労働基準法](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=322AC0000000049)に基づいています。
