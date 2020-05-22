@@ -1,4 +1,4 @@
-# **Payrox-cal** #
+# **Payrox-cal**
 
 [![npm version](https://badge.fury.io/js/payrox-cal.svg)](https://badge.fury.io/js/payrox-cal) [![Build Status](https://travis-ci.org/kota-yata/Payrox-cal.svg?branch=master)](https://travis-ci.org/kota-yata/Payrox-cal) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -8,7 +8,7 @@ Payroll calculation package for Japanese, based on [Labor Standards Act](https:/
 
 日本のアルバイト、パートタイム従業員の給料計算npmパッケージ。2020年現在の[労働基準法](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=322AC0000000049)に基づいています。
 
-# **description** #
+# **description**
 
 アルバイト、またはパートタイムの従業員の一回のシフトごとに給料を算出するパッケージです。深夜勤務、8時間以上連続勤務、週40時間以上勤務、法定休日出勤の割増が考慮されます。細かな仕様についてはUsageに記載しておりますのでそちらをご覧ください。
 
@@ -21,7 +21,7 @@ Payroll calculation package for Japanese, based on [Labor Standards Act](https:/
 
 詳しくは[労働基準法](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=322AC0000000049)をご確認ください。
 
-# **Usage** #
+# **Usage**
 
 **このパッケージは引数の入力が複雑です。質問等はいつでも[twitter](https://twitter.com/AlGoRiT94422608)のDMでお受けしています。**
 **「こんな場合はどう入力すれば良いの？」といった質問もOKです！**
@@ -59,9 +59,9 @@ ex.)6時間40分=>6.67時間, 7時間...7時間そのまま
 
 ex.)シフトが19時から6時間、翌01:00まで入った=>深夜勤務に該当するのは22:00~01:00なので3を入力する
   
-# **LICENSE** #
+# **LICENSE**
 
 Payrox-cal is under [MIT license](https://opensource.org/licenses/mit-license.php)
 
-# **Author** #
+# **Author**
 Kota Yatagai (https://twitter.com/AlGoRiT94422608)
