@@ -1,8 +1,8 @@
 # **Payrox-cal** #
 
-[![Build Status](https://travis-ci.org/kota-yata/Payrox-cal.svg?branch=master)](https://travis-ci.org/kota-yata/Payrox-cal)
+[![npm version](https://badge.fury.io/js/payrox-cal.svg)](https://badge.fury.io/js/payrox-cal) [![Build Status](https://travis-ci.org/kota-yata/Payrox-cal.svg?branch=master)](https://travis-ci.org/kota-yata/Payrox-cal) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![image](https://user-images.githubusercontent.com/51294895/80219704-d1603a80-867d-11ea-8f6f-0dae0c1f5880.png)
+[![NPM](https://nodei.co/npm/payrox-cal.png)](https://nodei.co/npm/payrox-cal/)
 
 Payroll calculation package for Japanese, based on [Labor Standards Act](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=322AC0000000049) in 2020.
 
